@@ -41,7 +41,7 @@ export default function Post(props) {
             description={siteConfig?.description || ""}
             canonical={siteConfig?.url}
             openGraph={{
-              url: siteConfig?.url
+              url: siteConfig?.url,
               title: `Blog — ${siteConfig?.title !== undefined ? siteConfig?.title : "BeCuts Media Inc."}`,
               description: siteConfig?.description || "",
               images: [
