@@ -37,12 +37,12 @@ export default function Post(props) {
       {posts && siteConfig && (
         <Layout {...siteConfig}>
           <NextSeo
-            title={`Blog — ${siteConfig?.title}`}
+            title={`Blog — ${siteConfig?.title !== undefined ? siteConfig?.title : "BeCuts Media Inc."}`}
             description={siteConfig?.description || ""}
             canonical={siteConfig?.url}
             openGraph={{
-              url: siteConfig?.url,
-              title: `Blog — ${siteConfig?.title}`,
+              url: siteConfig?.url
+              title: `Blog — ${ssiteConfig?.title !== undefined ? siteConfig?.title : "BeCuts Media Inc."}`,
               description: siteConfig?.description || "",
               images: [
                 {

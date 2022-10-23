@@ -19,7 +19,7 @@ export default function Layout(props) {
         <title>BeCuts Media Inc.</title>
       </Head>
       <NextSeo
-        title={props.title}
+        title={props.title !== undefined ? props.title : "BeCuts Media Inc."}
         description={props.description}
         canonical={props.url}
         openGraph={{
