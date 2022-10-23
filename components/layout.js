@@ -16,6 +16,7 @@ export default function Layout(props) {
       <Head>
         <link rel="preconnect" href="https://cdn.sanity.io/" />
         <link rel="dns-prefetch" href="https://cdn.sanity.io//" />
+        <title>BeCuts Media Inc.</title>
       </Head>
       <NextSeo
         title={props.title}
