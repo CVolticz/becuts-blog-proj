@@ -40,10 +40,10 @@ export default function About({ authors, siteconfig }) {
 
         <div className="mx-auto prose text-center dark:prose-invert mt-14">
           <p>
-            We're a small team of creators with the goal of curating interesting contents.
-            While we're only exploring text based contents at this point,
+            We are a small team of creators with the goal of curating interesting contents.
+            While we are only exploring text based contents at this point,
             we want to expand into all form of media, and beyond.
-            We hope you'll enjoy our contents and stick around for more!
+            We hope that you will enjoy our contents and stick around for more!
           </p>
         </div>
       </Container>
