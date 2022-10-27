@@ -40,19 +40,10 @@ export default function About({ authors, siteconfig }) {
 
         <div className="mx-auto prose text-center dark:prose-invert mt-14">
           <p>
-            We provide real-time connectivity to enable software
-            providers and financial institutions to build integrated
-            products for their small business customers.
-          </p>
-          <p>
-            Our API infrastructure is leveraged by clients ranging
-            from lenders to corporate card providers and business
-            forecasting tools, with use cases including automatic
-            reconciliation, business dashboarding, and loan
-            decisioning.
-          </p>
-          <p>
-            <Link href="/contact">Get in touch</Link>
+            We're a small team of creators with the goal of curating interesting contents.
+            While we're only exploring text based contents at this point,
+            we want to expand into all form of media, and beyond.
+            We hope you'll enjoy our contents and stick around for more!
           </p>
         </div>
       </Container>
